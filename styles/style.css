@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 180px;
 }
 .title-name{
     font-size: 45px;
@@ -27,7 +28,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: gray;
+    color: #474747;
 }
 .btn-orange{
     border-radius: 5px;
@@ -38,3 +39,24 @@ nav a{
     font-weight: 700;
     padding: 15px 35px;
 }
+/* sec-1 related CSS */
+.sec-1{
+    background-color: #FFF8F3;
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    height: 500px;
+    width: 500px;
+}
+/* .banner-greeting{
+    font-size: 50px;
+    font-weight: 200;
+}
+.banner-title{
+    font-size: 80px;
+    font-weight: 600;
+} */
