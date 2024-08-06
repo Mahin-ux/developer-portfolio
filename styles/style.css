@@ -122,3 +122,14 @@ nav a {
 .info-description{
     font-weight: 600;
 }
+.sec-3{
+    text-align: center;
+    margin: 100px;
+    padding: 120px;
+}
+#section-3-title{
+    margin-bottom: 40px;
+}
+#section-3-description{
+    margin-top: 0px;
+}
