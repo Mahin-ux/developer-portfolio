@@ -53,7 +53,6 @@ nav a {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-
 }
 
 .banner {
@@ -112,4 +111,14 @@ nav a {
 .section-description{
     font-size: 18px;
     color: #757575;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-weight: 200
+}
+.info-description{
+    font-weight: 600;
 }
