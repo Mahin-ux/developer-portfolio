@@ -101,12 +101,13 @@ nav a {
     padding: 120px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 150px;
+    margin: 50px;
     text-align: center;
 }
 .section-title{
     font-size: 35px;
     font-weight: 700;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
@@ -122,14 +123,40 @@ nav a {
 .info-description{
     font-weight: 600;
 }
+/* skill related CSS styles */
 .sec-3{
     text-align: center;
     margin: 100px;
     padding: 120px;
 }
 #section-3-title{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 #section-3-description{
     margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 0;
+}
+.skill{
+    text-align: left;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px gray;
+    
+}
+.skill-description{
+    color: #757575
+}
+/* resume related css */
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    margin: 150px;
 }
