@@ -42,7 +42,7 @@ nav a {
     background-color: #FD6E0A;
     border: 0;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     padding: 15px 35px;
 }
@@ -159,4 +159,16 @@ nav a {
 }
 .resume-container{
     margin: 150px;
+    display: flex;
+    gap: 50px;
+    text-align: left;
+}
+.resume-item-institute{
+    color: #757575;
+}
+.resume-item-description{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
 }
