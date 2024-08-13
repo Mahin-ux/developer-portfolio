@@ -172,3 +172,31 @@ nav a {
 .download-cv{
     text-align: center;
 }
+/* footer related css */
+.sec-5{
+    background-color: #FFF8F3;
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer{
+    margin: 100px 100px 0px 100px;
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+.footer-colum{
+    width: 60%;
+}
+.footer-contact input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    width: 350px;
+    color: #757575;
+    border: none;
+}
+.social-links a{
+    margin-right: 20px;
+}
